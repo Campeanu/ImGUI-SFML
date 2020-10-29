@@ -12,7 +12,6 @@ set(SOURCES
     imgui-SFML.cpp
 )
 
-# Linking SFML libarary.
 include_directories(${SFML}/include)
 link_directories(${SFML}/lib)
 
